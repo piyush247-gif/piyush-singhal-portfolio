@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f4f8; /* Soft light blue/gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean modern font */
+    color: #333333; /* Dark gray text */
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue for main headings */
+}
+
+/* This targets your div box using its class name */
+.profile-card {
+    background-color: white;     /* Gives the box a white background */
+    border: 2px solid #2c3e50;   /* Adds a solid dark blue border */
+    padding: 20px;               /* Adds space INSIDE the border */
+    margin: 30px auto;           /* Adds space OUTSIDE the box and centers it */
+    width: 400px;                /* Limits the width of our box */
+    border-radius: 10px;         /* Rounds the sharp corners */
+}
+.container {
+    display: flex;            /* Activates Flexbox */
+    justify-content: center;  /* Centers both boxes horizontally */
+    gap: 30px;               /* Adds a clean 30px gap BETWEEN the two boxes */
+    margin-top: 50px;         /* Pushes the whole layout down from the top of the page */
+}
+
+/* Let's style the hobbies box so it matches your profile box style */
+.hobby-card {
+    background-color: white;
+    border: 2px solid #2c3e50;
+    padding: 20px;
+    margin: 30px auto; 
+    width: 400px;
+    border-radius: 10px;
+}
